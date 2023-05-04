@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'sans-serif';
+  background-color: #9a0808;    
+}
+
+button {
+  border: 0;
+  color: #982D2D;
+  padding: 25px;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #982D2D;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+@media only screen and (max-width: 600px){
+  nav ul li {
+      margin: 15px;
+  }
+}

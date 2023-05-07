@@ -1,6 +1,6 @@
 import React from "react";
 
-import ItemPortfolio from "../Itemportfolio/Itemportfolio";
+import ItemPortfolio from "./Itemportfolio/Itemportfolio";
 
 import "./Portfolio.css";
 import portfolio from "./Portfolio.json";

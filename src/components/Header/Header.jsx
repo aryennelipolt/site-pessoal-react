@@ -11,7 +11,7 @@ function header() {
          <h1 id="nome-perfil">Aryenne Lipolt</h1>
          <h3 id="eventoSubtitulo">Aluna Comeia Academy</h3>
         </header>
-    ) 
+    );
 }
 
 export default header;

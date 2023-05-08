@@ -11,6 +11,6 @@ function ItemPortfolio(props) {
             </a>
         </div>
     );
-};
+}
 
 export default ItemPortfolio;

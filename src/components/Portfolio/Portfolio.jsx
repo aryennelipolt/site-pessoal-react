@@ -1,9 +1,9 @@
 import React from "react";
 
-import ItemPortfolio from "./Itemportfolio/Itemportfolio";
+import ItemPortfolio from "./ItemPortfolio/ItemPortfolio";
 
 import "./Portfolio.css";
-import portfolio from "./Portfolio.json";
+import Portfolio from "./Portfolio.json";
 
 function Portfolio() {
 
@@ -11,7 +11,7 @@ function Portfolio() {
 
         <main>
 
-            {portfolio.map(
+            {Portfolio.map(
                 (item, index) => 
                 <ItemPortfolio
                   key= {index}

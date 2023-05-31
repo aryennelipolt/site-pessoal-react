@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./ItemPortfolio.css";
+import "./Itemportfolio.css";
 
-function ItemPortfolio(props) {
+function Itemportfolio(props) {
     return (
         <div className="item-portfolio">
             <a href={props.link} target="_blanck">
@@ -13,4 +13,4 @@ function ItemPortfolio(props) {
     );
 }
 
-export default ItemPortfolio;
+export default Itemportfolio;

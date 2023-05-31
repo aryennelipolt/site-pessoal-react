@@ -1,6 +1,7 @@
 import React from "react";
 
-import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
+import Itemportfolio from "../Itemportfolio/Itemportfolio";
+
 
 import "./Portfolio.css";
 import portfolio from "./Portfolio.json";
@@ -12,12 +13,12 @@ function Portfolio() {
 
             {portfolio.map(
                 (item, index) => 
-                <ItemPortfolio
+                <Itemportfolio
                     key={index}
                     link={item.link}
                     image={item.image}
                     title={item.title}
-                ></ItemPortfolio>      
+                ></Itemportfolio>      
             )}
 
         </main>  

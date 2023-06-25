@@ -2,8 +2,6 @@ import React from "react";
 
 import "./ItemPortfolio.css";
 
-import "./ItemPortfolio";
-
 function ItemPortfolio(props) {
     return (
         <div className="item-portfolio">

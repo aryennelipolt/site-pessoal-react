@@ -3,6 +3,7 @@
     margin: 50px;
     background-color: #982D2D;
     box-shadow: 2px 3px 2px #982D2D;
+    border-radius: 10px;
 }
 
 .item-portfolio a{
@@ -14,4 +15,5 @@
 .item-portfolio img{
     width: 340px;
     height: 320px;
+    border-radius: 10px;
 }
